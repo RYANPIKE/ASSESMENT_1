@@ -1,14 +1,27 @@
 #include <stdio.h>
-#include <string.h>
+
 
 int main()
     {
-        printf("Select task");
+      int choice; 
+      
+        printf("List of options:\n");
+        printf("--------------------\n");
+        printf("1. Encryption with Cesar 1 \n");
+        printf("2. Decryption with Cesar 2 \n");
+        printf("--------------------\n");
+        printf("3. Encryption with Substitution (attempt) 3\n");
+        printf("--------------------\n");
+        
+    printf("Select desired option:  \n");
+    scanf("%d", & choice);
     
-    return;
-    }
+  
+  
+  return 0; 
+  }
 
-    /*    
+    /*
     char str[]="RYANPIKE"; // Hard coded message to be encrypted
     int k = 3;
     //int *temp;
@@ -52,4 +65,4 @@ int main()
     }
     }
     
-    
+    */
