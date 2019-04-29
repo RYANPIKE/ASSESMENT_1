@@ -1,10 +1,14 @@
 #include <stdio.h>
 #include <string.h>
-/*
+
 int main()
     {
-        
-        
+        printf("Select task");
+    
+    return;
+    }
+
+    /*    
     char str[]="RYANPIKE"; // Hard coded message to be encrypted
     int k = 3;
     //int *temp;
@@ -22,7 +26,10 @@ int main()
 
     }
     }
-*/
+
+
+
+
 int main()
     {
         
@@ -44,3 +51,5 @@ int main()
 
     }
     }
+    
+    
