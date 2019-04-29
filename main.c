@@ -7,7 +7,7 @@ int main()
       
       Do 
         {
-        printf("List of options:\n");
+        printf("List of st of options:\n");                           // 
         printf("--------------------\n");
         printf("1. Encryption with Cesar 1 \n");
         printf("2. Decryption with Cesar 2 \n");
@@ -105,5 +105,7 @@ int main()
 
      
     
+    return 0;
+}  
     return 0;
 }
